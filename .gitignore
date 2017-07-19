@@ -102,3 +102,8 @@ ENV/
 
 # IDE
 .idea/
+
+# test
+scrapyspider/
+tmp/*
+.gitignore
