@@ -17,17 +17,17 @@ setup(
     description=u'中国期货监控中心模拟浏览器操作',
     long_description=read("README.md"),
 
-    url='https://github.com/lamter/cfmmcspider',
+    url='https://github.com/lamter/cfmmc',
     author='lamter',
     author_email='lamter.fu@gmail.com',
 
     packages=find_packages(),
     package_data={
-        "tradingtime": ["*.json"],
+        "cfmmc": ["*.json"],
     },
     install_requires=read("requirements.txt").splitlines(),
     classifiers=[
-        'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
         'License :: OSI Approved :: MIT License'],
 )

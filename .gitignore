@@ -105,5 +105,5 @@ ENV/
 
 # test
 scrapyspider/
-*/tmp/*
+tmp/*
 .gitignore
