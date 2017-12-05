@@ -4,11 +4,11 @@ import os
 
 
 def read(fname):
-    with open(os.path.join(os.path.dirname(__file__), fname)) as f:
+    with open(os.path.join(os.path.dirname(__file__), fname), encoding='utf-8') as f:
         return f.read()
 
 
-__version__ = "2016.12.4"
+__version__ = "2017.12.3"
 
 setup(
     name='cfmmc',
