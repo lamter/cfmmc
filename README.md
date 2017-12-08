@@ -21,12 +21,14 @@ pip install -e . # 从本地项目目录安装
 ### 下载每日结算数据
 ```
 import cfmmc
+# 设置账号密码
 dic = {
     'userID':'查询账号',
     'password': '查询密码',
     'saveto': '保存下载数据的文件夹'
 }
-cfmmc.account(**dic) # 设置账号密码
+# 下载数据
+cfmmc.downloadDailySettlement(**dic)
 > 请手动输入验证码:
 ```
 弹出来的`chrome`浏览器，就是正在被代码操纵的浏览器。
