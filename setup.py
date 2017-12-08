@@ -8,7 +8,7 @@ def read(fname):
         return f.read()
 
 
-__version__ = "2017.12.3"
+__version__ = "2017.12.5"
 
 setup(
     name='cfmmc',
